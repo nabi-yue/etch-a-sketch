@@ -13,7 +13,36 @@ body {
 }
 
 .main-container {
-    height: 100px;
-    width: 100px;
-    
+    height: auto;
+    width: auto;
+    background-color: pink;
+    border-color: darkblue;
+    border-style: groove;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid-container {
+    height: 950px;
+    width: 950px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid-row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.grid-cell {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: white;
+    border-style: none;
 }
