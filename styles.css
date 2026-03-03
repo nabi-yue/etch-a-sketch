@@ -13,7 +13,7 @@ body {
 }
 
 .main-container {
-    height: auto;
+    height: 100vh;
     width: auto;
     background-color: pink;
     border-color: darkblue;
